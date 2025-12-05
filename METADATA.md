@@ -6,9 +6,11 @@
 The OKX Web3 Go Wallet SDK is a comprehensive solution for building wallet applications with offline transaction capabilities across multiple blockchain networks. It provides a unified interface for account management, transaction creation, and signing across various mainstream public chains.
 
 ### Owner
-**Repository Owner**: wsx7524999  
-**Organization**: OKX (Original)  
-**Repository**: [wsx7524999/go-wallet-sdk](https://github.com/wsx7524999/go-wallet-sdk)
+**Repository Owner**: wsx7524999 (Fork)  
+**Original Organization**: OKX  
+**Current Repository**: [wsx7524999/go-wallet-sdk](https://github.com/wsx7524999/go-wallet-sdk)  
+**Original Repository**: [okx/go-wallet-sdk](https://github.com/okx/go-wallet-sdk)  
+**Go Module Path**: `github.com/okx/go-wallet-sdk` (uses original module path)
 
 ### Primary Language
 **Go** (version 1.23+)
@@ -33,6 +35,7 @@ The module is available on pkg.go.dev with comprehensive documentation for all e
 ### Installation
 ```bash
 # Install the entire SDK
+# Note: Even though this is a fork, the module path remains github.com/okx/go-wallet-sdk
 go get -u github.com/okx/go-wallet-sdk
 
 # Or install specific blockchain modules
@@ -40,6 +43,8 @@ go get -u github.com/okx/go-wallet-sdk/coins/bitcoin
 go get -u github.com/okx/go-wallet-sdk/coins/ethereum
 go get -u github.com/okx/go-wallet-sdk/coins/solana
 ```
+
+> **Note**: This repository is a fork of the original OKX SDK. The Go module path continues to use `github.com/okx/go-wallet-sdk` as defined in `go.mod` to maintain compatibility with existing projects.
 
 ## Cryptocurrency Wallet Integration
 
